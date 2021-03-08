@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,AAAA,CAEF,UAAU,CCFE,OAAO,CDGnB,MAAM,CAAE,MAAM,CAEjB",
+    "sources": [
+        "../Sass/Layout/linea.scss",
+        "../Sass/Librerias/variables.scss"
+    ],
+    "names": [],
+    "file": "linea.css"
+}
