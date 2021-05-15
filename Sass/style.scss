@@ -1,8 +1,13 @@
     @import "Librerias/variables.scss";
     @import "Layout/linea.scss";
     @import "Layout/header";
+    @import "Layout/tittle.scss";
+    @import "Layout/footer.scss";
+    @import "Layout/search.scss";
+    @import "Layout/trending.scss";
+    @import "Layout/trending-GIFOS.scss";
 
-
+ 
     //Reset 
     *, *::before, *::after {
         margin: 0;
@@ -10,15 +15,23 @@
         outline: 0;
         box-sizing: border-box;
     }
-    
+     ul {
+        li{
+            list-style: none;
+        }
+     }
+     a {
+         text-decoration: none;
+     }
     body{
+   // font-size: 1.6rem;
      background:  $color-principal;
      font-family: $fuente-body;
-       .content{        
+        .content{
             max-width: 85%;
-            margin: 0 auto;
-            padding: 1rem;    
-       }
+            margin: 0 auto;           
+            padding: 1rem;
+        }
     }
     
         

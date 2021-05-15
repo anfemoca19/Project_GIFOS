@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,gBAAgB,AAAA,CACR,SAAS,CAAE,MAAM,CACjB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,GAAG,CACd,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,IAAI,CASpB,AAdD,AAOE,gBAPc,CAOd,EAAE,AAAA,CAEI,KAAK,CCXG,OAAO,CDelB,AAbL,AAUQ,gBAVQ,CAOd,EAAE,CAGI,IAAI,AAAA,CACA,KAAK,CAAC,OAAO,CAChB",
+    "sources": [
+        "../Sass/Layout/tittle.scss",
+        "../Sass/Librerias/variables.scss"
+    ],
+    "names": [],
+    "file": "tittle.css"
+}

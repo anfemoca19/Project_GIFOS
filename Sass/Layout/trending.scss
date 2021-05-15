@@ -1,0 +1,19 @@
+@import "../Librerias/variables.scss";
+
+
+.trending{
+    text-align: center;
+    margin-top: 3.1rem;
+    h3{
+        font-size: 1.6rem;
+        margin-bottom: 0.2rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .subtitle{
+        color: $color-titulos;             
+    }
+   
+    
+}

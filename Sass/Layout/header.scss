@@ -1,42 +1,51 @@
 @import "../Librerias/variables.scss";
 
 //menu hamburguesa mobile
-
     .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3.1rem;
-        
-    .logo-mobile{
-        width: 3rem;
-        height: 3rem;
-    }
-    .menu-nav .menu-list {
-      display: none; //ocular la lista destocp
+        display: flex;      
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3.1rem;
        
+    .logo-mobile{
+        width: 4.8rem;
+        height: 4.8rem;
     }
-    .menu-nav .btn-mobile{
-       // display: inline-flex;
-       .menu-list-content{
-           position: fixed;
-           width: 100vh;
-           height: calc(100% - 6.5rem) ;
-           background: $color-titulos;
-           top: -100vh;
-           text-align: center;
-           transition: all .4s;
-           flex-direction: column;  
-           li{
-               margin: 30px 0 0 0;
-               line-height: 30px;
-               a{
-                   font-size: 20px;
-                   color:$color-fuente-menu-hamburguer;
-                   font-weight: bold;
-               }
-           }         
-       }
+    .btn-mobile{
+        width: 1.8rem;
+    }
+    .menu-nav {
+        cursor: pointer;
+        .x {
+            display: none;
+        }
+        .show-x{
+            display: block;
+        }
+        .hide-btn{
+            display: none;
+        }
+        .menu-list {
+            display: none; //ocular la lista desktop
+            &.show {
+                // display: block;
+                background: $color-titulos; 
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 120PX;
+                .menu-list-content  li{
+                    &:last-child{
+                        display: none;
+                    }          
+                    a{
+                        color :$color-principal;                             
+                    }  
+                }
+            } 
+        }
     }
     
 }
@@ -45,39 +54,29 @@
    //Menu Destocp
    
     .menu{ 
-       .btn-mobile{
+        .menu-nav .menu-list, 
+        .menu-list-content{
+            display: flex;
+            align-items: center;
+            li {
+                .hover-list:hover{
+                    border-bottom: 0.2rem solid $color-hover-menu;
+                }
+                a{
+                 margin-right: 4.1rem;                 
+                }
+                &:last-child {
+                    a{
+                        margin-right: 0;
+                    }
+                    
+                }
+            }
+        }
+
+        .btn-mobile{
             display: none;
         }
-        .logo-desktop{
-            width: 5.9rem ;
-            height: 5.9rem ;
-        }
-        .mas {
-            width: 5.4rem ;
-            height: 5.4rem ;
-        }
-        .menu-nav .menu-list{
-           display:block ;
-            li{
-            display: inline-block;
-             margin-right: 2rem;
-            a{
-                color: $color-fuente-menu-hamburguer;
-                text-decoration: none;
-                font-weight: bold;
-            }
-                .menu-list-content li:last-child{
-                    margin-right: 0;
-                
-                }
-                    .menu-nav{
-                        color: $color-fuente-menu-hamburguer;
-                    }
-        } 
-          li a{
-             color: $color-titulos;
-             text-transform: uppercase;
-           }
-        }
-    } 
-  }
+    }
+ } 
+  

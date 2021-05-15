@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,SAAS,AAAA,CACL,UAAU,CAAE,MAAM,CAClB,UAAU,CAAE,MAAM,CAarB,AAfD,AAGI,SAHK,CAGL,EAAE,AAAA,CACE,SAAS,CAAE,MAAM,CACjB,aAAa,CAAE,MAAM,CACxB,AANL,AAOI,SAPK,CAOL,CAAC,AAAA,CACG,SAAS,CAAE,MAAM,CACpB,AATL,AAUI,SAVK,CAUL,SAAS,AAAA,CACL,KAAK,CCbG,OAAO,CDclB",
+    "sources": [
+        "../Sass/Layout/trending.scss",
+        "../Sass/Librerias/variables.scss"
+    ],
+    "names": [],
+    "file": "trending.css"
+}

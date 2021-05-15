@@ -1,0 +1,48 @@
+@import "../Librerias/variables.scss";
+
+.search{
+    .ilustra{
+        margin: 31px 100px 0px 100px;  
+        width: 273px;
+        align-items: center;
+       margin-bottom: -4px;
+    }
+ .container-search{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin: 0 21px 0 20px;
+    border: 1px solid $color-titulos;
+    border-radius: 27px;
+        .input-search{
+            width: 300px;
+            margin-left: 55px;
+            text-align: left;
+            border: 0;
+            
+        .icon-search{
+            margin-left: 300px;
+        }
+    }
+
+    }
+}
+@media screen and(min-width: 600px){
+    .search{
+       
+        .ilustra{
+            margin: 31px 300px 0 380px;  
+            width:39.9rem ;
+            height:19.0rem ;
+            align-items: center;
+            margin-bottom: -4px;
+        }
+        .container-search{  
+            margin: 0px 300px 0 300px;          
+            display: flex;
+            width: 34.438;
+            height: 3.125rem;
+        }
+    }
+}
